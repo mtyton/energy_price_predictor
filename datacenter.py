@@ -9,7 +9,7 @@ def run():
     analyse_data()
 
 def analyse_data():
-    analyse = Analysys()  # tworzymy obiekt klasy analysys
+    analyse = Analysys()  # Creates object of Analysys class
     file = open('dane.txt', 'r')
     trans = analyse.get_price_data(file)
     file.close()
