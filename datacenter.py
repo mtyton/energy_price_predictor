@@ -48,7 +48,7 @@ def loop(api, file, date):
 
 def get_current_download_date():
     """
-    :return: - date from which we should download now
+    :return: - date for which we should download
     """
     date = datetime.datetime.utcnow()
     download_hour = datetime.datetime.strptime("12:00:00", "%H:%M:%S")
